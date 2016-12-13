@@ -5,7 +5,7 @@ var transporter = nodemailer.createTransport('smtps://az8321550%40gmail.com:jmkn
 
 var mailData = {
   from: 'az8321550@gmail.com',
-  to: 'az8321550@gmail.com;nobody@bodyno.com;az8321550@163.com',
+  to: 'az8321550@gmail.com;az8321550@163.com',
   subject: '网站异常 - 来自nobody的健康检查',
   text: '网站异常 - 来自nobody的健康检查',
   html: '网站异常 - 来自nobody的健康检查'
